@@ -1,5 +1,9 @@
 //
-// Script    : mysql-describe.js
+// File      : mysql-describe.js
+//
+// Author    : Barry Kimelman]
+//
+// Created   : October 4, 2019
 //
 // Purpose   : Display a description of a MySQL database table.
 //
@@ -9,9 +13,9 @@
 //             argv[5] - username (default = 'root')
 //             argv[6] - hostname (default = 'localhost')
 //
-// Output    : An alert box is displayed if any input field is empty
+// Output    : requested table description
 //
-// Returns   : IF a field is missing THEN false
+// Returns   : (nothing)
 //
 // Example   : mysql-describe.js mytable myschema
 //
