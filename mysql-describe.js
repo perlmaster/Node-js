@@ -62,9 +62,6 @@ var connection = mysql.createConnection({
 });
 
 connection.connect();
-// SELECT column_name,data_type,ordinal_position,is_nullable,column_comment,
-// CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,COLUMN_TYPE,COLUMN_KEY,EXTRA
-// FROM columns WHERE table_name = 'mytable' AND table_schema = 'myschema'
 
 var sql = "SELECT column_name,data_type,ordinal_position,is_nullable,column_comment,";
 sql += "CHARACTER_MAXIMUM_LENGTH maxlen,NUMERIC_PRECISION,NUMERIC_SCALE,COLUMN_TYPE,COLUMN_KEY,EXTRA";
