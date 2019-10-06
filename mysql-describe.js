@@ -32,7 +32,9 @@ function pad_string(string,maxlen)
 
 var count = process.argv.length;
 if ( count < 5 ) {
-	console.log("Usage : node mysql-describe.js table_name schema password [username [host]]");
+	var script_name = process.argv[1].split("\\");
+	var count = script_name.length;
+	console.log("Usage : node " + script_name[count-1] + " table_name schema password [username [host]]");
 	process.exit();
 }
 var table_name = process.argv[2];
