@@ -5,13 +5,13 @@
 //
 // Created   : October 6, 2019
 //
-// Purpose   : Display a list of schemas under a MySQL server
+// Purpose   : Display list of schemas under a MySQL database server
 //
 // Inputs    : argv[2] - password
 //             argv[3] - username (default = 'root')
 //             argv[4] - hostname (default = 'localhost')
 //
-// Output    : requested table description
+// Output    : List of schemas
 //
 // Returns   : (nothing)
 //
